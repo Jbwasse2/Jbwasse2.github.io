@@ -281,121 +281,188 @@
       
 
       <section class="page__content" itemprop="text">
-        <p><strong>Easy/Straight</strong></p>
+        <h1 id="notes">Notes</h1>
+<ol>
+  <li>Red circle around a ghost node means it is the GT closest node to goal</li>
+  <li>Green circle around a ghost node means it is what the given method selected</li>
+  <li>When red appears as the border, NRNS beleives it is close to the goal and stops exploring using ghost nodes</li>
+  <li>The left video is Distance(x) + TC, the right video is Distance(x)</li>
+</ol>
 
-<p>No Oracle</p>
-<p float="middle">
-  <img src="../images/nrns/noflag/easy/Cantwell_40.jpg" width="320" align="left" />
-  <video width="320" height="240" controls="" align="left">
-    <source src="../images/nrns/noflag/easy/Cantwell_40.mp4" type="video/mp4" />
-  </video>
-</p>
+<h1 id="experiments">Experiments</h1>
+<h2 id="gibsoneasystraight"><strong>gibson/easy/straight</strong></h2>
 
-<p>D*</p>
-<p float="middle">
-  <img src="../images/nrns/d_/easy/Cantwell_40.jpg" width="320" align="left" />
-  <video width="320" height="240" controls="" align="left">
-    <source src="../images/nrns/d_/easy/Cantwell_40.mp4" type="video/mp4" />
-  </video>
-</p>
+<p>Baseline
+<br />
+<img src="../images/nrns/Cat/old/gibson/straight/easy/Cantwell_40.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/old/gibson/straight/easy/Cantwell_40.mp4" type="video/mp4" />
 
-<p>EA*</p>
-<p float="middle">
-  <img src="../images/nrns/ea_/easy/Cantwell_40.jpg" width="320" align="left" />
-  <video width="320" height="240" controls="" align="left">
-    <source src="../images/nrns/ea_/easy/Cantwell_40.mp4" type="video/mp4" />
-  </video>
-</p>
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/old/gibson/straight/easy/Cantwell_40.mp4" type="video/mp4" />
+</video>
 
-<p>D* T*</p>
-<p float="middle">
-  <img src="../images/nrns/d_t_/easy/Cantwell_40.jpg" width="320" align="left" />
-  <video width="320" height="240" controls="" align="left">
-    <source src="../images/nrns/d_t_/easy/Cantwell_40.mp4" type="video/mp4" />
-  </video>
-</p>
+<p>Ground Truth
+<br />
+<img src="../images/nrns/Cat/gt/gibson/straight/easy/Cantwell_40.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/gt/gibson/straight/easy/Cantwell_40.mp4" type="video/mp4" />
 
-<p>D* EA*</p>
-<p float="middle">
-  <img src="../images/nrns/ea_d_/easy/Cantwell_40.jpg" width="320" align="left" />
-  <video width="320" height="240" controls="" align="left">
-    <source src="../images/nrns/ea_d_/easy/Cantwell_40.mp4" type="video/mp4" />
-  </video>
-</p>
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/gt/gibson/straight/easy/Cantwell_40.mp4" type="video/mp4" />
+</video>
 
-<p>EA* T*</p>
-<p float="middle">
-  <img src="../images/nrns/ea_t_/easy/Cantwell_40.jpg" width="320" align="left" />
-  <video width="320" height="240" controls="" align="left">
-    <source src="../images/nrns/ea_t_/easy/Cantwell_40.mp4" type="video/mp4" />
-  </video>
-</p>
+<p>[0,1] Clipping
+<br />
+<img src="../images/nrns/Cat/new/gibson/straight/easy/Cantwell_40.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/new/gibson/straight/easy/Cantwell_40.mp4" type="video/mp4" />
 
-<p>D* EA* T*</p>
-<p float="middle">
-  <img src="../images/nrns/ea_d_t_/easy/Cantwell_40.jpg" width="320" align="left" />
-  <video width="320" height="240" controls="" align="left">
-    <source src="../images/nrns/ea_d_t_/easy/Cantwell_40.mp4" type="video/mp4" />
-  </video>
-</p>
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/new/gibson/straight/easy/Cantwell_40.mp4" type="video/mp4" />
+</video>
 
-<p><strong>Hard/Straight</strong></p>
+<h2 id="gibsoneasycurved"><strong>gibson/easy/curved</strong></h2>
 
-<p>No Oracle</p>
-<p float="middle">
-  <img src="../images/nrns/noflag/hard/Cantwell_13.jpg" width="320" align="left" />
-  <video width="320" height="213" controls="" align="left">
-    <source src="../images/nrns/noflag/hard/Cantwell_13.mp4" type="video/mp4" />
-  </video>
-</p>
+<p>Baseline
+<br />
+<img src="../images/nrns/Cat/old/gibson/curved/easy/Cantwell_15.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/old/gibson/curved/easy/Cantwell_15.mp4" type="video/mp4" />
 
-<p>D*</p>
-<p float="middle">
-  <img src="../images/nrns/d_/hard/Cantwell_13.jpg" width="320" align="left" />
-  <video width="320" height="213" controls="" align="left">
-    <source src="../images/nrns/d_/hard/Cantwell_13.mp4" type="video/mp4" />
-  </video>
-</p>
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/old/gibson/curved/easy/Cantwell_15.mp4" type="video/mp4" />
+</video>
 
-<p>EA*</p>
-<p float="middle">
-  <img src="../images/nrns/ea_/hard/Cantwell_13.jpg" width="320" align="left" />
-  <video width="320" height="213" controls="" align="left">
-    <source src="../images/nrns/ea_/hard/Cantwell_13.mp4" type="video/mp4" />
-  </video>
-</p>
+<p>Ground Truth
+<br />
+<img src="../images/nrns/Cat/gt/gibson/curved/easy/Cantwell_15.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/gt/gibson/curved/easy/Cantwell_15.mp4" type="video/mp4" />
 
-<p>D* T*</p>
-<p float="middle">
-  <img src="../images/nrns/d_t_/hard/Cantwell_13.jpg" width="320" align="left" />
-  <video width="320" height="213" controls="" align="left">
-    <source src="../images/nrns/d_t_/hard/Cantwell_13.mp4" type="video/mp4" />
-  </video>
-</p>
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/gt/gibson/curved/easy/Cantwell_15.mp4" type="video/mp4" />
+</video>
 
-<p>D* EA*</p>
-<p float="middle">
-  <img src="../images/nrns/ea_d_/hard/Cantwell_13.jpg" width="320" align="left" />
-  <video width="320" height="213" controls="" align="left">
-    <source src="../images/nrns/ea_d_/hard/Cantwell_13.mp4" type="video/mp4" />
-  </video>
-</p>
+<p>[0,1] Clipping
+<br />
+<img src="../images/nrns/Cat/new/gibson/curved/easy/Cantwell_15.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/new/gibson/curved/easy/Cantwell_15.mp4" type="video/mp4" />
 
-<p>EA* T*</p>
-<p float="middle">
-  <img src="../images/nrns/ea_t_/hard/Cantwell_13.jpg" width="320" align="left" />
-  <video width="320" height="213" controls="" align="left">
-    <source src="../images/nrns/ea_t_/hard/Cantwell_13.mp4" type="video/mp4" />
-  </video>
-</p>
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/new/gibson/curved/easy/Cantwell_15.mp4" type="video/mp4" />
+</video>
 
-<p>D* EA* T*</p>
-<p float="middle">
-  <img src="../images/nrns/ea_d_t_/hard/Cantwell_13.jpg" width="320" align="left" />
-  <video width="320" height="213" controls="" align="left">
-    <source src="../images/nrns/ea_d_t_/hard/Cantwell_13.mp4" type="video/mp4" />
-  </video>
-</p>
+<h2 id="gibsonmediumstraight"><strong>gibson/medium/straight</strong></h2>
+
+<p>Baseline
+<br />
+<img src="../images/nrns/Cat/old/gibson/straight/medium/Cantwell_40.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/old/gibson/straight/medium/Cantwell_40.mp4" type="video/mp4" />
+
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/old/gibson/straight/medium/Cantwell_40.mp4" type="video/mp4" />
+</video>
+
+<p>Ground Truth
+<br />
+<img src="../images/nrns/Cat/gt/gibson/straight/medium/Cantwell_40.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/gt/gibson/straight/medium/Cantwell_40.mp4" type="video/mp4" />
+
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/gt/gibson/straight/medium/Cantwell_40.mp4" type="video/mp4" />
+</video>
+
+<p>[0,1] Clipping
+<br />
+<img src="../images/nrns/Cat/new/gibson/straight/medium/Cantwell_40.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/new/gibson/straight/medium/Cantwell_40.mp4" type="video/mp4" />
+
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/new/gibson/straight/medium/Cantwell_40.mp4" type="video/mp4" />
+</video>
+
+<h2 id="gibsonmediumcurved"><strong>gibson/medium/curved</strong></h2>
+
+<p>Baseline
+<br />
+<img src="../images/nrns/Cat/old/gibson/curved/medium/Cantwell_3.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/old/gibson/curved/medium/Cantwell_3.mp4" type="video/mp4" />
+
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/old/gibson/curved/medium/Cantwell_3.mp4" type="video/mp4" />
+</video>
+
+<p>Ground Truth
+<br />
+<img src="../images/nrns/Cat/gt/gibson/curved/medium/Cantwell_3.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/gt/gibson/curved/medium/Cantwell_3.mp4" type="video/mp4" />
+
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/gt/gibson/curved/medium/Cantwell_3.mp4" type="video/mp4" />
+</video>
+
+<p>[0,1] Clipping
+<br />
+<img src="../images/nrns/Cat/new/gibson/curved/medium/Cantwell_3.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/new/gibson/curved/medium/Cantwell_3.mp4" type="video/mp4" />
+
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/new/gibson/curved/medium/Cantwell_3.mp4" type="video/mp4" />
+</video>
+
+<h2 id="gibsonhardstraight"><strong>gibson/hard/straight</strong></h2>
+
+<p>Baseline
+<br />
+<img src="../images/nrns/Cat/old/gibson/straight/hard/Cantwell_13.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/old/gibson/straight/hard/Cantwell_13.mp4" type="video/mp4" />
+
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/old/gibson/straight/hard/Cantwell_13.mp4" type="video/mp4" />
+</video>
+
+<p>Ground Truth
+<br />
+<img src="../images/nrns/Cat/gt/gibson/straight/hard/Cantwell_13.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/gt/gibson/straight/hard/Cantwell_13.mp4" type="video/mp4" />
+
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/gt/gibson/straight/hard/Cantwell_13.mp4" type="video/mp4" />
+</video>
+
+<p>[0,1] Clipping
+<br />
+<img src="../images/nrns/Cat/new/gibson/straight/hard/Cantwell_13.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/new/gibson/straight/hard/Cantwell_13.mp4" type="video/mp4" />
+
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/new/gibson/straight/hard/Cantwell_13.mp4" type="video/mp4" />
+</video>
+
+<h2 id="gibsonhardcurved"><strong>gibson/hard/curved</strong></h2>
+
+<p>Baseline
+<br />
+<img src="../images/nrns/Cat/old/gibson/curved/hard/Cantwell_43.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/old/gibson/curved/hard/Cantwell_43.mp4" type="video/mp4" />
+
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/old/gibson/curved/hard/Cantwell_43.mp4" type="video/mp4" />
+</video>
+
+<p>Ground Truth
+<br />
+<img src="../images/nrns/Cat/gt/gibson/curved/hard/Cantwell_43.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/gt/gibson/curved/hard/Cantwell_43.mp4" type="video/mp4" />
+
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/gt/gibson/curved/hard/Cantwell_43.mp4" type="video/mp4" />
+</video>
+
+<p>[0,1] Clipping
+<br />
+<img src="../images/nrns/Cat/new/gibson/curved/hard/Cantwell_43.jpg" width="640" align="left" /></p>
+<source src="../images/nrns/Cat/new/gibson/curved/hard/Cantwell_43.mp4" type="video/mp4" />
+
+<video controls="" width="640" align="left">
+<source src="../images/nrns/Cat/new/gibson/curved/hard/Cantwell_43.mp4" type="video/mp4" />
+</video>
 
         
       </section>
