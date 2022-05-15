@@ -271,17 +271,22 @@
 <h1 id="daslab-and-the-terrasentia-girish-chowdhary">DASlab and the TerraSentia (Girish Chowdhary)</h1>
 
 <h2 id="offline-topological-maps">Offline Topological Maps</h2>
-<p>At the start of graduate school I got interested in <a href="https://arxiv.org/pdf/1803.00653.pdf">topological mapping</a>. I ended up implementing the work of <a href="https://arxiv.org/pdf/1909.12329.pdf">Meng et al.</a> on the TerraSentia. The topological map built from this work (right) is shown in contrast to the metric map built using <a href="http://wiki.ros.org/rtabmap_ros">RTAB-Map</a> (left).</p>
+<p>At the start of graduate school I got interested in <a href="https://arxiv.org/pdf/1803.00653.pdf">topological mapping</a>. I ended up implementing the work of <a href="https://arxiv.org/pdf/1909.12329.pdf">Meng et al.</a> on the <a href="https://www.nytimes.com/2020/02/13/science/farm-agriculture-robots.html">TerraSentia robot</a>
+. The topological map built from this work (right) is shown in contrast to the metric map built using <a href="http://wiki.ros.org/rtabmap_ros">RTAB-Map</a> (left).</p>
 
-<p><img src="images/maps.png" width="480" style="display: block; margin: 0 auto" /></p>
+<p><img src="images/maps.png" width="720" style="display: block; margin: 0 auto" /></p>
 
 <p>One can then use this topological map as well as a few trained models in order to navigate the robot to a goal image. This GIF is sped up by 2X.</p>
 
 <p><img src="gif/top2_fast.gif" width="400" style="display: block; margin: 0 auto" /></p>
 
-<p>One point of failure in the topological map creation was in the edges that span across the map. This would mean that two parts of the graph that are actually far apart are represented as being close in the topological map, causing the robot to fail to navigate to the goal. <a href="https://arxiv.org/pdf/2003.06417.pdf">Emmons et al.</a> would coin this phenomenon as a wormhole.</p>
+<p>One point of failure in the topological map creation was in the edges that span across the map.</p>
 
-<p>When I applied Meng&#8217;s method to the <a href="http://gibsonenv.stanford.edu/database/">Gibson dataset</a>, the creation of wormholes in the topological map was still prevalent. In the following figure are image pairs that were predicted to be similar, but were actually 5-20 meters apart.</p>
+<p><img src="images/topmapwRed.png" width="340" style="display: block; margin: 0 auto" /></p>
+
+<p>This would mean that two parts of the graph that are actually far apart are represented as being close in the topological map, causing the robot to fail to navigate to the goal. <a href="https://arxiv.org/pdf/2003.06417.pdf">Emmons et al.</a> would coin this phenomenon as a wormhole.</p>
+
+<p>When I applied Meng&#8217;s method to the <a href="http://gibsonenv.stanford.edu/database/">Gibson dataset</a> inside of <a href="https://arxiv.org/abs/1904.01201">Habitat</a>, the creation of wormholes in the topological map was still prevalent. In the following figure are image pairs connected in the topological map that were predicted to be similar, but were actually 5-20 meters apart.</p>
 
 <p><img src="images/wormholes.png" width="480" style="display: block; margin: 0 auto" /></p>
 
@@ -289,13 +294,13 @@
 
 <p><img src="images/system.png" width="720" style="display: block; margin: 0 auto" /></p>
 
-<p>Using Meng&#8217;s method, on average 7.29% of edges in the Gibson maps were wormholes. After incorporating pose I was able to reduce that to get an average of 0.19% of edges being wormholes.</p>
+<p>Using Meng&#8217;s method, on average 7.29% of edges in the Gibson maps were wormholes. After incorporating pose I was able to reduce that to get an average of 0.19% of edges being wormholes. When using the respective maps on a down stream navigation task I found pruning the wormholes improved navigation success from 15.3% to 28.1%.</p>
 
 <h2 id="online-topological-maps">Online Topological Maps</h2>
 <p>I am currently following a line of research where topological maps are made online for embodied AI tasks.</p>
 
 <h2 id="agriculture-robots">Agriculture Robots</h2>
-<p>Agriculture is a very cool application of robotics. The robot will have to complete tasks in a GPS denied environment where everything looks the same, is slightly dynamic, with constant camera occlusion. When I first joined DASlab I assisted with two projects for the <a href="https://www.nytimes.com/2020/02/13/science/farm-agriculture-robots.html">TerraSentia</a>. The first project involved training a deep learning model to predict whether the robot is in a crop row or not. This was useful for other navigation and planning tasks performed by the robot such turning into a new row of crops. The model I trained ended up getting around 96% accuracy on this task.</p>
+<p>Agriculture is a very cool application of robotics. The robot will have to complete tasks in a GPS denied environment where everything looks the same, is slightly dynamic, with constant camera occlusion. When I first joined DASlab I assisted with two projects for the TerraSentia robot. The first project involved training a deep learning model to predict whether the robot is in a crop row or not. This was useful for other navigation and planning tasks performed by the robot such turning into a new row of crops. The model I trained ended up getting around 96% accuracy on this task.</p>
 
 <p><img src="gif/cornBot.gif" width="480" style="display: block; margin: 0 auto" /></p>
 
