@@ -73,7 +73,7 @@ This project resulted in a publication at MRS 2018 and also allowed me to open s
 
 At Yaskawa the applications engineering teams are responsible for making [some](https://www.youtube.com/watch?v=O3XyDLbaUmU) [cool](https://www.youtube.com/watch?v=xQB9AAZJluw) [robotics](https://www.youtube.com/watch?v=1F4-plhdnj0) [demos](https://www.youtube.com/watch?v=0-bw1PujfwQ). On this team I helped develop a motion planning library used for various applications of industrial robots.
 
-I mostly ran my code on the following gantry robot in the thumbnail that was presented at a trade show.
+I mostly ran my code on the following gantry robot that was presented at a trade show.
 
 [<img src="gif/gantry.gif" width="480" style="display: block; margin: 0 auto" />]( https://www.youtube.com/watch?v=DrRHJZl1ArQ "Gantry Prototype Robot")
 
