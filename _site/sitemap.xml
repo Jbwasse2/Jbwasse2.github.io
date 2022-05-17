@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://jbwasse2.github.io/portfolio/portfolio-1/</loc>
+<loc>https://jbwasse2.github.io/portfolio/agRobot/</loc>
 </url>
 <url>
-<loc>https://jbwasse2.github.io/portfolio/portfolio-2/</loc>
+<loc>https://jbwasse2.github.io/portfolio/arity/</loc>
+</url>
+<url>
+<loc>https://jbwasse2.github.io/portfolio/battlebots/</loc>
+</url>
+<url>
+<loc>https://jbwasse2.github.io/portfolio/industrial/</loc>
+</url>
+<url>
+<loc>https://jbwasse2.github.io/portfolio/offTopMap/</loc>
+</url>
+<url>
+<loc>https://jbwasse2.github.io/portfolio/weaselBots/</loc>
 </url>
 <url>
 <loc>https://jbwasse2.github.io/posts/2012/08/blog-post-1/</loc>
@@ -128,6 +140,10 @@
 <url>
 <loc>https://jbwasse2.github.io/files/paper3.pdf</loc>
 <lastmod>2022-01-03T11:54:30-08:00</lastmod>
+</url>
+<url>
+<loc>https://jbwasse2.github.io/portfolio/images/system.pdf</loc>
+<lastmod>2022-05-16T13:53:35-07:00</lastmod>
 </url>
 <url>
 <loc>https://jbwasse2.github.io/robots/images/system.pdf</loc>
