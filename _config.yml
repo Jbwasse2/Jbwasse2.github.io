@@ -236,6 +236,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
+      #      entries_layout: grid
   # _talks
   - scope:
       path: ""

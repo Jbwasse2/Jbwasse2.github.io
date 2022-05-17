@@ -1,5 +1,5 @@
 ---
-title: "Industrial Robots"
+title: "Industrial robots [Gantry robots, arm robots, and many more]"
 excerpt: "<img src='/portfolio/gif/gantry.gif' width='400'>"
 collection: portfolio
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Navigation for Agriculture Robots"
+title: "Navigation for agriculture robots [TerraSentia robot, PyTorch]"
 excerpt: "<img src='/portfolio/gif/cornBot.gif' width='400'>"
 collection: portfolio
 ---

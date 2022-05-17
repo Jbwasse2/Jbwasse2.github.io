@@ -1,5 +1,5 @@
 ---
-title: "Offline Topological Mapping"
+title: "Offline topological mapping [TerraSentia robot, Habitat, PyTorch]"
 excerpt: "<img src='/portfolio/gif/top2_fast.gif' width='400'>"
 collection: portfolio
 ---

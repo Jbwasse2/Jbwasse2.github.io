@@ -1,5 +1,5 @@
 ---
-title: "BattleBots"
+title: "BattleBots [30 lb horizontal spinners]"
 excerpt: "<img src='/portfolio/gif/battlebot.gif' width='400'>"
 collection: portfolio
 ---

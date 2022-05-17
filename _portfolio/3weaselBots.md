@@ -1,5 +1,5 @@
 ---
-title: "Non-deterministic, Minimalist Robots"
+title: "Non-deterministic, minimalist robots [WeaselBot]"
 excerpt: "<img src='/portfolio/gif/weasel.gif' width='400'>"
 collection: portfolio
 ---

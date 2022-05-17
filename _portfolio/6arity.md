@@ -1,5 +1,5 @@
 ---
-title: "Arity"
+title: "Arity [Stewart platform]"
 excerpt: "<img src='/portfolio/images/arity.jpg' width='400'>"
 collection: portfolio
 ---
