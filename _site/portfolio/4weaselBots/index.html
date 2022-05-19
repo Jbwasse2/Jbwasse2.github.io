@@ -19,7 +19,7 @@
 
 
 
-<title>Offline topological mapping [TerraSentia robot, Habitat, PyTorch] - Justin Wasserman</title>
+<title>Non-deterministic, minimalist robots [WeaselBot] - Justin Wasserman</title>
 
 
 
@@ -29,11 +29,11 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Justin Wasserman">
-<meta property="og:title" content="Offline topological mapping [TerraSentia robot, Habitat, PyTorch]">
+<meta property="og:title" content="Non-deterministic, minimalist robots [WeaselBot]">
 
 
-  <link rel="canonical" href="https://jbwasse2.github.io/portfolio/1offTopMap/">
-  <meta property="og:url" content="https://jbwasse2.github.io/portfolio/1offTopMap/">
+  <link rel="canonical" href="https://jbwasse2.github.io/portfolio/4weaselBots/">
+  <meta property="og:url" content="https://jbwasse2.github.io/portfolio/4weaselBots/">
 
 
 
@@ -245,7 +245,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Offline topological mapping [TerraSentia robot, Habitat, PyTorch]">
+    <meta itemprop="headline" content="Non-deterministic, minimalist robots [WeaselBot]">
     <meta itemprop="description" content="">
     
     
@@ -253,7 +253,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Offline topological mapping [TerraSentia robot, Habitat, PyTorch]
+          <h1 class="page__title" itemprop="headline">Non-deterministic, minimalist robots [WeaselBot]
 </h1>
           
         
@@ -267,32 +267,13 @@
       
 
       <section class="page__content" itemprop="text">
-        <p>At the start of graduate school I got interested in <a href="https://arxiv.org/pdf/1803.00653.pdf">topological mapping</a>. I ended up implementing the work of <a href="https://arxiv.org/pdf/1909.12329.pdf">Meng et al.</a> on the <a href="https://www.nytimes.com/2020/02/13/science/farm-agriculture-robots.html">TerraSentia robot</a>
-. The topological map built from this work (right) is shown in contrast to the metric map built using <a href="http://wiki.ros.org/rtabmap_ros">RTAB-Map</a> (left) of the lab I work in.</p>
+        <p>Mentors: <a href="https://alli.nilles.info/">Alli Nilles</a> and <a href="http://lavalle.pl/">Steven LaValle</a></p>
 
-<p><img src="/portfolio/images/maps.png" width="720" style="display: block; margin: 0 auto" /></p>
+<p>For my undergraduate thesis I worked on a “weasel bot” which was a simple, random, bouncing robot. I was interested in designing a mechanical structure that goes around the weasel bot that allows it to connect with other weasel bots. The ultimate goal in this project was to study what tasks can be accomplished through minimal sensing including pushing an object and having the robots join together in a configuration.</p>
 
-<p>One can then use this topological map as well as a few trained models in order to navigate the robot to a goal image. This GIF is sped up by 2X.</p>
+<p><img src="/portfolio/gif/weasel.gif" width="480" style="display: block; margin: 0 auto" /></p>
 
-<p><img src="/portfolio/gif/top2_fast.gif" width="400" style="display: block; margin: 0 auto" /></p>
-
-<p>One point of failure in the topological map creation was in the edges that span across the map.</p>
-
-<p><img src="/portfolio/images/topmapwRed.png" width="340" style="display: block; margin: 0 auto" /></p>
-
-<p>This would mean that two parts of the graph that are actually far apart are represented as being close in the topological map, causing the robot to fail to navigate to the goal. <a href="https://arxiv.org/pdf/2003.06417.pdf">Emmons et al.</a> would coin this phenomenon as a wormhole.</p>
-
-<p>When I applied Meng’s method to the <a href="http://gibsonenv.stanford.edu/database/">Gibson dataset</a> inside of <a href="https://arxiv.org/abs/1904.01201">Habitat</a>, the creation of wormholes in the topological map was still prevalent. In the following figure are image pairs connected in the topological map that were predicted to be similar, but were actually 5-20 meters apart.</p>
-
-<p><img src="/portfolio/images/wormholes.png" width="480" style="display: block; margin: 0 auto" /></p>
-
-<p>One way that I seeked to eliminate wormholes was to incorporate pose estimates from <a href="https://github.com/raulmur/ORB_SLAM2">ORB-SLAM2</a>.</p>
-
-<p><img src="/portfolio/images/system.png" width="720" style="display: block; margin: 0 auto" /></p>
-
-<p>Using Meng’s method, on average 7.29% of edges in the Gibson maps were wormholes. After incorporating pose I was able to reduce that to get an average of 0.19% of edges being wormholes. When using the respective maps on a down stream image-goal navigation task I found pruning the wormholes improved navigation success from 15.3% to 28.1%.</p>
-
-<p>I am currently following a line of research where topological maps are made online for embodied AI tasks.</p>
+<p>This project resulted in a publication at MRS 2018 and also allowed me to open source a python package that was <a href="https://core.ac.uk/download/pdf/210999288.pdf">more efficient</a> than SciPy at solving a system of equations when the equations were represented through a sparse Kronecker product.</p>
 
         
       </section>
@@ -313,11 +294,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=https://jbwasse2.github.io/portfolio/1offTopMap/" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=https://jbwasse2.github.io/portfolio/4weaselBots/" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://jbwasse2.github.io/portfolio/1offTopMap/" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://jbwasse2.github.io/portfolio/4weaselBots/" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://jbwasse2.github.io/portfolio/1offTopMap/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://jbwasse2.github.io/portfolio/4weaselBots/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -325,10 +306,11 @@
 
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">Previous</a>
+      <a href="https://jbwasse2.github.io/portfolio/3agRobot/" class="pagination--pager" title="Navigation for agriculture robots [TerraSentia robot, PyTorch]
+">Previous</a>
     
     
-      <a href="https://jbwasse2.github.io/portfolio/2agRobot/" class="pagination--pager" title="Navigation for agriculture robots [TerraSentia robot, PyTorch]
+      <a href="https://jbwasse2.github.io/portfolio/5industrial/" class="pagination--pager" title="Industrial robots [Gantry robots, arm robots, and many more]
 ">Next</a>
     
   </nav>

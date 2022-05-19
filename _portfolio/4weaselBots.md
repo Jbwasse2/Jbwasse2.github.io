@@ -3,6 +3,7 @@ title: "Non-deterministic, minimalist robots [WeaselBot]"
 excerpt: "<img src='/portfolio/gif/weasel.gif' width='400'>"
 collection: portfolio
 ---
+Mentors: [Alli Nilles](https://alli.nilles.info/) and [Steven LaValle](http://lavalle.pl/)
 
 For my undergraduate thesis I worked on a "weasel bot" which was a simple, random, bouncing robot. I was interested in designing a mechanical structure that goes around the weasel bot that allows it to connect with other weasel bots. The ultimate goal in this project was to study what tasks can be accomplished through minimal sensing including pushing an object and having the robots join together in a configuration.
 

@@ -3,6 +3,7 @@ title: "Industrial robots [Gantry robots, arm robots, and many more]"
 excerpt: "<img src='/portfolio/gif/gantry.gif' width='400'>"
 collection: portfolio
 ---
+Mentors: [Kevin Hull](https://www.linkedin.com/in/kevin-hull-b8034b98/) and [Nishant Unnikrishnan](https://scholar.google.com/citations?user=j00xCFgAAAAJ)
 
 At Yaskawa the applications engineering teams are responsible for making [some](https://www.youtube.com/watch?v=O3XyDLbaUmU) [cool](https://www.youtube.com/watch?v=xQB9AAZJluw) [robotics](https://www.youtube.com/watch?v=1F4-plhdnj0) [demos](https://www.youtube.com/watch?v=0-bw1PujfwQ). On this team I helped develop a motion planning library used for various applications of industrial robots.
 
