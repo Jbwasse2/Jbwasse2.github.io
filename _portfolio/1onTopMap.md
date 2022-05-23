@@ -13,5 +13,6 @@ Here is our method performing image goal navigation in Habitat on the Gibson dat
 
 <img src="/portfolio/gif/greigsville500.gif" width="700" style="display: block; margin: 0 auto" />
 
-Here we show the agent performing the image goal task for a situation that often occurs to myself. Getting out of bed just to get back in on the other side.
-<img src="/portfolio/gif/swormville1125.gif" width="700" style="display: block; margin: 0 auto" />
+Here is a demonstration of a part of our method that is tasked with moving the robot from the current view to the goal view by estimating a waypoint and then moving by utilizing Model Predictive Control.
+
+<img src="/portfolio/gif/robot_view.gif" width="700" style="display: block; margin: 0 auto" />
