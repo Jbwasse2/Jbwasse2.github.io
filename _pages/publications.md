@@ -4,6 +4,16 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-2. J. Wasserman, G. Chowdhary. U. Jain. An Image Goal Navigation Paper in European Conference on Computer Vision (ECCV), 2022. Under double blind review.
+Under-Canopy Dataset for Advancing Simultaneous Localization and Mapping in Agricultural Robotics  
+J. Cuaran, A. Velasquez, M. Gasparino, N. Uppalapati, A. Sivakumar, __J. Wasserman__, M. Huzaifa, S. Adve, G. Chowdhary  
+Under Review at _ICRA 2023_
 
-1. A. Nilles, J. Wasserman, A. Born, C. Horn, J. Born, S. LaValle “A Hardware and Software Testbed for Underactuated Self-Assembling Robots” in IEEE International Symposium on Multi-Robot and Multi-Agent Systems (MRS), 2019
+
+Last-Mile Embodied Visual Navigation  
+__J. Wasserman__, K. Yadav, G. Chowdhary, A. Gupta, U. Jain.  
+_CoRL 2022_
+
+
+A Hardware and Software Testbed for Underactuated Self-Assembling Robots  
+A. Nilles, __J. Wasserman__, A. Born, C. Horn, J. Born, S. LaValle   
+_MRS 2019_

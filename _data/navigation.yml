@@ -1,10 +1,2 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
-
-  - title: "Robotics Demos"
-    url: /portfolio/
-
-  - title: "CV"
-    url: /cv/main.pdf

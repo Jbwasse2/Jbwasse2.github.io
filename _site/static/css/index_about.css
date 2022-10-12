@@ -1,0 +1,31 @@
+.post-container {
+    margin: 20px 0px 0 0;  
+    overflow: auto
+}
+.post-container-highlight {
+    margin: 20px 0px 0 0;  
+    overflow: auto;
+    background-color: #FFFFCD;
+}
+.post-thumb {
+    float: left
+}
+.post-thumb img {
+    width:260px; /* you can use % */
+    height:200px;
+    padding-right: 20px
+}
+
+.post-thumb video {
+    width:260px; /* you can use % */
+    height:200px;
+    padding-right: 20px
+}
+
+.post-content {
+}
+.post-title {
+    font-weight: bold;
+    font-size: 120%;
+    display: inline;
+}
