@@ -46,7 +46,12 @@ Previously, I also completed my undergraduate at UIUC where I completed my under
 </head>
 <body>
 <div class="post-container">
-    <div class="post-thumb"><img src="./images/black.png" /></div>
+    <div class="post-thumb">
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="/portfolio/vids/underCanopy/corn_final.m4v"
+                type="video/mp4">
+      </video>
+    </div>
     <div class="post-content">
         <h1 class="post-title">Under-Canopy Dataset for Advancing Simultaneous Localization and Mapping in Agricultural Robotics</h1><br>
         <p>
