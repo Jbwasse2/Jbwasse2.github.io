@@ -53,7 +53,7 @@ collection: portfolio
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">Last-Mile Embodied Visual Navigation </h1>
-          <div class="is-size-6 publication-authors">
+          <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://jbwasse2.github.io/">Justin Wasserman</a><sup>1*†</sup>,</span>
             <span class="author-block">
@@ -128,6 +128,7 @@ collection: portfolio
       </video>
       <img src='/portfolio/images/sling/improv1.svg'>
     </div>
+    Left video sped up x20
 <!--      <video id="teaser" autoplay muted loop playsinline width="58%">
         <source src="/portfolio/vids/full_nav.mp4"
                 type="video/mp4">
@@ -214,14 +215,14 @@ collection: portfolio
           In this real-world last-mile navigation example, the previous method predicted a waypoint (red square in top down map) that was not within 1 meter of the goal (blue square/circle in top down map, visualized in top left corner). Even worst, it caused the robot to hit the corn! Video sped up x3.
           </p>
         <video id="dollyzoom" autoplay controls muted playsinline width="100%">
-            <source src="/portfolio/vids/corn_nrns_cut.mp4"
+            <source src="/portfolio/vids/nrns.m4v"
                     type="video/mp4">
         </video>
           <p>
           However, with SLING, the agent predicted a valid waypoint and was able to navigate towards the goal. Video sped up x3.
           </p>
         <video id="dollyzoom" autoplay controls muted playsinline width="100%">
-            <source src="/portfolio/vids/corn_sling_cut.mp4"
+            <source src="/portfolio/vids/sling.m4v"
                     type="video/mp4">
         </video>
         </div>
