@@ -210,48 +210,62 @@ collection: portfolio
       <div class="column">
         <h2 class="title is-3">Results</h2>
         <p style="margin-top:0.5cm;">
+        <h2 class="title is-4">Last-Mile Navigation Only</h2>
         <div class="containerhl1">
           <p>
-          In this real-world last-mile navigation example, the previous method predicted a waypoint (red square in top down map) that was not within 1 meter of the goal (blue square/circle in top down map, visualized in top left corner). Even worst, it caused the robot to hit the corn! Video sped up x3.
+          <b>Previous Method:</b> In this real-world last-mile navigation example, the previous method predicted a waypoint (red square in top down map) that was not within 1 meter of the goal (blue square/circle in top down map, visualized in top left corner). Even worst, it caused the robot to hit the corn! Video sped up x3.
+          <br><span style="color: #ff0000">Failure</span>
           </p>
         <video id="dollyzoom" autoplay controls muted playsinline width="100%">
             <source src="/portfolio/vids/nrns.m4v"
                     type="video/mp4">
         </video>
+        <br>
           <p>
-          However, with SLING, the agent predicted a valid waypoint and was able to navigate towards the goal. Video sped up x3.
+          <b>SLING:</b> However, with SLING, the agent predicted a valid waypoint and was able to navigate towards the goal. Video sped up x3.
+          <br><span style="color: #00ff00">Success</span>
           </p>
         <video id="dollyzoom" autoplay controls muted playsinline width="100%">
             <source src="/portfolio/vids/sling.m4v"
                     type="video/mp4">
         </video>
         </div>
+        <br>
+        <h2 class="title is-4">Geometric Switches Improve Success Rate</h2>
         <div class="containerhl2">
           <p>
-          The switching mechanism at (0:02) fails to notice that the agent is close to the goal and continues exploring the environment. This causes the agent to explore more and then once in the kitchen at (0:36), it believes it is near the goal causing it to navigate to the final waypoint and fail. The goal is shown in the topdown map as a the red circle, and the agent is the blue circle.
+          <b>Previous Method:</b> The switching mechanism at (0:02) fails to notice that the agent is close to the goal and continues exploring the environment. This causes the agent to explore more and then once in the kitchen at (0:36), it believes it is near the goal causing it to navigate to the final waypoint and fail. The goal is shown in the topdown map as a the red circle, and the agent is the blue circle.
+          <br><span style="color: #ff0000">Failure</span>
           </p>
           <video id="dollyzoom" autoplay controls muted playsinline width="100%">
               <source src="/portfolio/vids/sling/nrns/2t7WUuJeko7_80.mp4"
                       type="video/mp4">
           </video>
+          <br>
           <p>
-          Our switching mechanism notices the goal at (0:02) and navigates to a point near the goal. 
+          <b>SLING:</b> Our switching mechanism notices the goal at (0:02) and navigates to a point near the goal. 
+          <br><span style="color: #00ff00">Success</span>
           </p>
           <video id="dollyzoom" autoplay controls muted playsinline width="100%">
               <source src="/portfolio/vids/sling/sling/2t7WUuJeko7_80.mp4"
                       type="video/mp4">
           </video>
         </div>
+        <br>
+        <h2 class="title is-4">SLING Improves Last-Mile Navigation Over Previous Methods</h2>
         <div class="containerhl1">
           <p>
-          In the following video, even though the robot sees the goal in front of it, the previous method poorly predicts the final waypoint to the goal and fails.
+          <b>Previous Method:</b> In the following video, even though the robot sees the goal in front of it, the previous method poorly predicts the final waypoint to the goal and fails.
+          <br><span style="color: #ff0000">Failure</span>
           </p>
           <video id="dollyzoom" autoplay controls muted playsinline width="100%">
               <source src="/portfolio/vids/sling/nrns/RPmz2sHmrrY_457.mp4"
                       type="video/mp4">
           </video>
+          <br>
           <p>
-          However, SLING gives more accurate predictions of the relative pose to the goal, allowing it to succeed.
+          <b>SLING:</b> However, SLING gives more accurate predictions of the relative pose to the goal, allowing it to succeed.
+          <br><span style="color: #00ff00">Success</span>
           </p>
           <video id="dollyzoom" autoplay controls muted playsinline width="100%">
               <source src="/portfolio/vids/sling/sling/RPmz2sHmrrY_457.mp4"
