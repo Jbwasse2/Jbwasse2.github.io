@@ -223,7 +223,7 @@ collection: portfolio
         <br>
           <p>
           <b>SLING:</b> However, with SLING, the agent predicted a valid waypoint and was able to navigate towards the goal. Video sped up x3.
-          <br><span style="color: #00ff00">Success</span>
+          <br><span style="color: #00b050">Success</span>
           </p>
         <video id="dollyzoom" autoplay controls muted playsinline width="100%">
             <source src="/portfolio/vids/sling.m4v"
@@ -244,7 +244,7 @@ collection: portfolio
           <br>
           <p>
           <b>SLING:</b> Our switching mechanism notices the goal at (0:02) and navigates to a point near the goal. 
-          <br><span style="color: #00ff00">Success</span>
+          <br><span style="color: #00b050">Success</span>
           </p>
           <video id="dollyzoom" autoplay controls muted playsinline width="100%">
               <source src="/portfolio/vids/sling/sling/2t7WUuJeko7_80.mp4"
@@ -265,7 +265,7 @@ collection: portfolio
           <br>
           <p>
           <b>SLING:</b> However, SLING gives more accurate predictions of the relative pose to the goal, allowing it to succeed.
-          <br><span style="color: #00ff00">Success</span>
+          <br><span style="color: #00b050">Success</span>
           </p>
           <video id="dollyzoom" autoplay controls muted playsinline width="100%">
               <source src="/portfolio/vids/sling/sling/RPmz2sHmrrY_457.mp4"
