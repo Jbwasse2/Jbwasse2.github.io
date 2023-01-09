@@ -53,7 +53,8 @@ Previously, I also completed my undergraduate at UIUC where I completed my under
       </video>
     </div>
     <div class="post-content">
-        <h1 class="post-title">Under-Canopy Dataset for Advancing Simultaneous Localization and Mapping in Agricultural Robotics</h1><br>
+        <h1 class="post-title"><a href="http://www.daslab.illinois.edu/slam-dataset
+">Under-Canopy Dataset for Advancing Simultaneous Localization and Mapping in Agricultural Robotics</a></h1><br>
         <p>
         J. Cuaran, A. Velasquez, M. Gasparino, N. Uppalapati, A. Sivakumar, <b>J. Wasserman</b>, M. Huzaifa, S. Adve, G. Chowdhary<br>
         Under Review at <i>ICRA 2023</i>
