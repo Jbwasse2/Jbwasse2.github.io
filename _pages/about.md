@@ -57,7 +57,7 @@ Previously, I also completed my undergraduate at UIUC where I completed my under
 ">Under-Canopy Dataset for Advancing Simultaneous Localization and Mapping in Agricultural Robotics</a></h1><br>
         <p>
         J. Cuaran, A. Velasquez, M. Gasparino, N. Uppalapati, A. Sivakumar, <b>J. Wasserman</b>, M. Huzaifa, S. Adve, G. Chowdhary<br>
-        Under Review at <i>ICRA 2023</i>
+        Under Review at <i>IROS 2023</i>
         </p>
    </div>
 </div>
