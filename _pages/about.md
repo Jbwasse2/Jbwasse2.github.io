@@ -14,6 +14,8 @@ Previously, I also completed my undergraduate at UIUC where I completed my under
 
 [CV](./cv/main.pdf)
 
+**I am currently at CMU working with Unnat Jain and Abhinav Gupta for the spring and summer semester of 2023.**
+
 ***
 
 # Publications
@@ -45,22 +47,6 @@ Previously, I also completed my undergraduate at UIUC where I completed my under
   <link rel="stylesheet" href="./static/css/index_about.css">
 </head>
 <body>
-<div class="post-container">
-    <div class="post-thumb">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="/portfolio/vids/underCanopy/corn_final.m4v"
-                type="video/mp4">
-      </video>
-    </div>
-    <div class="post-content">
-        <h1 class="post-title"><a href="http://www.daslab.illinois.edu/slam-dataset
-">Under-Canopy Dataset for Advancing Simultaneous Localization and Mapping in Agricultural Robotics</a></h1><br>
-        <p>
-        J. Cuaran, A. Velasquez, M. Gasparino, N. Uppalapati, A. Sivakumar, <b>J. Wasserman</b>, M. Huzaifa, S. Adve, G. Chowdhary<br>
-        Under Review at <i>IROS 2023</i>
-        </p>
-   </div>
-</div>
 
 <div class="post-container-highlight">
     <div class="post-thumb">
