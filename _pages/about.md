@@ -14,7 +14,7 @@ Previously, I also completed my undergraduate at UIUC where I completed my under
 
 [CV](./cv/main.pdf)
 
-**I am currently at CMU working with Unnat Jain and Abhinav Gupta for the spring and summer semester of 2023.**
+**I am currently at CMU working with Unnat Jain and Abhinav Gupta.**
 
 ***
 
@@ -48,6 +48,32 @@ Previously, I also completed my undergraduate at UIUC where I completed my under
 </head>
 <body>
 
+
+<div class="post-container-highlight">
+    <div class="post-thumb">
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="/portfolio/XGX/rollout_small.mp4"
+                type="video/mp4">
+      </video>
+    </div>
+    <div class="post-content">
+        <h1 class="post-title"><a href="https://xgxicra24.github.io/">Exploitation-Guided Exploration for Semantic Embodied Navigation</a></h1><br>
+        <p>
+        <b>J. Wasserman</b>, G. Chowdhary, A. Gupta, U. Jain.<br>
+        <i>(In Preperation) arXiv</i>
+        </p>
+   </div>
+</div>
+<div class="post-container">
+    <div class="post-thumb"><img src="./portfolio/gif/corny_data.gif" /></div>
+    <div class="post-content">
+        <h1 class="post-title"><a href="https://github.com/jrcuaranv/terrasentia-dataset">Under-Canopy Dataset for Advancing Simultaneous Localization and Mapping in Agricultural Robotics</a></h1><br>
+        <p>
+        J. Cuaran, A. Velasquez, M. Gasparino, N. Uppalapati, A. Sivakumar, <b>J. Wasserman</b>, M. Huzaifa, S. Adve, G. Chowdhary<br>
+        <i>ICRA Workshop TIG-IV, 2023</i>
+        </p>
+   </div>
+</div>
 <div class="post-container-highlight">
     <div class="post-thumb">
       <video id="teaser" autoplay muted loop playsinline height="100%">
@@ -80,7 +106,7 @@ Previously, I also completed my undergraduate at UIUC where I completed my under
 
 ***
 # Robotics Demos
-These demos correspond to unpublished robotics work that I have done.
+These demos correspond to unpublished, industry, and hobbyist robotics projects that I have done.
 <html>
 <body>
 <div class="post-container">
