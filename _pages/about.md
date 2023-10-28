@@ -60,7 +60,7 @@ Previously, I also completed my undergraduate at UIUC where I completed my under
         <h1 class="post-title"><a href="https://xgxicra24.github.io/">Exploitation-Guided Exploration for Semantic Embodied Navigation</a></h1><br>
         <p>
         <b>J. Wasserman</b>, G. Chowdhary, A. Gupta, U. Jain.<br>
-        <i>(In Preperation) arXiv</i>
+        <i> Neurips 2023 Robot Learning Workshop <b>(Oral Talk)</b></i>
         </p>
    </div>
 </div>
@@ -70,7 +70,7 @@ Previously, I also completed my undergraduate at UIUC where I completed my under
         <h1 class="post-title"><a href="https://github.com/jrcuaranv/terrasentia-dataset">Under-Canopy Dataset for Advancing Simultaneous Localization and Mapping in Agricultural Robotics</a></h1><br>
         <p>
         J. Cuaran, A. Velasquez, M. Gasparino, N. Uppalapati, A. Sivakumar, <b>J. Wasserman</b>, M. Huzaifa, S. Adve, G. Chowdhary<br>
-        <i>ICRA Workshop TIG-IV, 2023</i>
+        <i>IJRR 2023</i>
         </p>
    </div>
 </div>
