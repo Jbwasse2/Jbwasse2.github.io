@@ -57,7 +57,7 @@ Previously, I also completed my undergraduate at UIUC where I completed my under
       </video>
     </div>
     <div class="post-content">
-        <h1 class="post-title"><a href="https://xgxicra24.github.io/">Exploitation-Guided Exploration for Semantic Embodied Navigation</a></h1><br>
+        <h1 class="post-title"><a href="https://xgxvisnav.github.io">Exploitation-Guided Exploration for Semantic Embodied Navigation</a></h1><br>
         <p>
         <b>J. Wasserman</b>, G. Chowdhary, A. Gupta, U. Jain.<br>
         <i> arXiv, 2023</i><br>
