@@ -61,7 +61,7 @@ Previously, I also completed my undergraduate at UIUC where I completed my under
         <p>
         <b>J. Wasserman</b>, G. Chowdhary, A. Gupta, U. Jain.<br>
         <i> arXiv, 2023</i><br>
-        <i> Neurips 2023 Robot Learning Workshop <b>(Oral Talk)</b></i>
+        <i> <b>Best Paper at </b> Neurips 2023 Robot Learning Workshop </i>
         </p>
    </div>
 </div>
