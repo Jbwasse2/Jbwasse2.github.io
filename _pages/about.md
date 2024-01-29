@@ -60,7 +60,7 @@ Previously, I also completed my undergraduate at UIUC where I completed my under
         <h1 class="post-title"><a href="https://xgxvisnav.github.io">Exploitation-Guided Exploration for Semantic Embodied Navigation</a></h1><br>
         <p>
         <b>J. Wasserman</b>, G. Chowdhary, A. Gupta, U. Jain.<br>
-        <i> arXiv, 2023</i><br>
+        <i> ICRA 2024</i><br>
         <i> <b>Best Paper at </b> Neurips 2023 Robot Learning Workshop </i>
         </p>
    </div>
