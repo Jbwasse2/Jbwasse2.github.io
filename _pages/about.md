@@ -14,7 +14,7 @@ Previously, I also completed my undergraduate at UIUC where I completed my under
 
 [CV](./cv/main.pdf)
 
-**I am currently at CMU working with Unnat Jain and Abhinav Gupta.**
+**I am currently at Skild AI working with Deepak Pathak and Abhinav Gupta.**
 
 ***
 
