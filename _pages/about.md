@@ -48,7 +48,21 @@ Previously, I also completed my undergraduate at UIUC where I completed my under
 </head>
 <body>
 
-
+<div class="post-container-highlight">
+    <div class="post-thumb">
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./portfolio/Legolas/front.mp4"
+                type="video/mp4">
+      </video>
+    </div>
+    <div class="post-content">
+        <h1 class="post-title"><a href="https://learned-odom.github.io">Legolas: Deep Leg-Inertial Odometry</a></h1><br>
+        <p>
+        <b>J. Wasserman</b>, A. Agarwal, R. Jangir, G. Chowdhary, D. Pathak, A. Gupta<br>
+        <i> CoRL 2024</i><br>
+        </p>
+   </div>
+</div>
 <div class="post-container-highlight">
     <div class="post-thumb">
       <video id="teaser" autoplay muted loop playsinline height="100%">
@@ -152,7 +166,7 @@ These demos correspond to unpublished, industry, and hobbyist robotics projects 
         </p>
    </div>
 </div> -->
-<div class="post-container">
+<!-- <div class="post-container">
     <div class="post-thumb"><img src="./portfolio/images/arity.jpg" /></div>
     <div class="post-content">
         <h1 class="post-title"><a href="./portfolio/arity">Visualizing Car Driving Through Robots</a></h1><br>
@@ -160,7 +174,7 @@ These demos correspond to unpublished, industry, and hobbyist robotics projects 
         [Steward Platform]<br>
         </p>
    </div>
-</div> 
+</div> -->
 
 <!-- <div class="post-container">
     <div class="post-thumb"><img src="./images/black.png" /></div>
