@@ -8,13 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in Electrical and Computer Engineering at UIUC. I am advised by [Girish Chowdhary](http://daslab.illinois.edu/). I also work closely with [Unnat Jain](https://unnat.github.io/) and [Abhinav Gupta](http://www.cs.cmu.edu/~abhinavg/) to improve embodied AI tasks and apply them to real-world robots.
+I am currently a Research Scientist at [Skild AI](https://www.skild.ai/) working with [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/) and [Abhinav Gupta](http://www.cs.cmu.edu/~abhinavg/). I am also currently a Ph.D. student in Electrical and Computer Engineering at UIUC. I am advised by [Girish Chowdhary](http://daslab.illinois.edu/). I also work closely with [Unnat Jain](https://unnat.github.io/) to improve embodied AI tasks and apply them to real-world robots. 
 
 Previously, I also completed my undergraduate at UIUC where I completed my undergraduate thesis under the advising of [Steven LaValle](http://lavalle.pl/) and [Alli Nilles](https://alli.nilles.info/).
 
-[CV](./cv/main.pdf)
+If you are interested in collaborating please reach out.
 
-**I am currently at Skild AI working with Deepak Pathak and Abhinav Gupta.**
+[Resume](./cv/main.pdf)
+
+
 
 ***
 
@@ -121,7 +123,7 @@ Previously, I also completed my undergraduate at UIUC where I completed my under
 
 ***
 # Robotics Demos
-These demos correspond to unpublished, industry, and hobbyist robotics projects that I have done.
+These demos correspond to unpublished, industry, and hobbyist robotics projects that I have worked on.
 <html>
 <body>
 <div class="post-container">

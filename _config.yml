@@ -87,7 +87,7 @@ author:
   employer         :
   cv               : ./cv/main.pdf
   pubmed           :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=6OP2QCkAAAAJ&hl=en"
   email            : "Jbwasse2@illinois.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
