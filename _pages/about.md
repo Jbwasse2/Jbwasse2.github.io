@@ -8,11 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Research Scientist at [Skild AI](https://www.skild.ai/) working with [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/) and [Abhinav Gupta](http://www.cs.cmu.edu/~abhinavg/). I am also currently a Ph.D. student in Electrical and Computer Engineering at UIUC. I am advised by [Girish Chowdhary](http://daslab.illinois.edu/). I also work closely with [Unnat Jain](https://unnat.github.io/) to improve embodied AI tasks and apply them to real-world robots. 
+I am currently a Research Scientist at [Skild AI](https://www.skild.ai/) working with [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/) and [Abhinav Gupta](http://www.cs.cmu.edu/~abhinavg/). I completed my Ph.D. in Electrical and Computer Engineering at UIUC. I was advised by [Girish Chowdhary](http://daslab.illinois.edu/). I also worked closely with [Unnat Jain](https://unnat.github.io/) to improve embodied AI tasks and apply them to real-world robots. 
 
 Previously, I also completed my undergraduate at UIUC where I completed my undergraduate thesis under the advising of [Steven LaValle](http://lavalle.pl/) and [Alli Nilles](https://alli.nilles.info/).
-
-If you are interested in collaborating please reach out.
 
 [Resume](./cv/main.pdf)
 
